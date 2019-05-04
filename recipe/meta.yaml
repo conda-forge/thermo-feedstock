@@ -23,6 +23,8 @@ requirements:
     - pandas
     - python
     - scipy
+    - pint
+    - sympy
 
 test:
   imports:
