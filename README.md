@@ -16,7 +16,7 @@ pressure dependent chemical properties (both thermodynamic and transport),
 the calculation of the same for chemical mixtures (including phase equilibria),
 and assorted information of a regulatory or legal nature about chemicals.
 
-The thermo library depends on the SciPy library to povide numerical
+The thermo library depends on the SciPy library to provide numerical
 constants, interpolation, integration, differentiation, and numerical
 solving functionality. thermo all operating systems which support Python, is
 quick to install, and is free of charge. thermo is designed to be easy

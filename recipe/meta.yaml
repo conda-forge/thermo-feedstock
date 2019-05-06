@@ -10,7 +10,7 @@ source:
   sha256: 37fd4b8e5709f525510bd729fdd5e4f2dcdfb13b4cee29eb0c41343afad8819b
 
 build:
-  number: 3
+  number: 4
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv "
 
@@ -47,7 +47,7 @@ about:
     the calculation of the same for chemical mixtures (including phase equilibria), 
     and assorted information of a regulatory or legal nature about chemicals.
 
-    The thermo library depends on the SciPy library to povide numerical 
+    The thermo library depends on the SciPy library to provide numerical 
     constants, interpolation, integration, differentiation, and numerical 
     solving functionality. thermo all operating systems which support Python, is 
     quick to install, and is free of charge. thermo is designed to be easy 
