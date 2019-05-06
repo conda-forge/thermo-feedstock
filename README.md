@@ -132,4 +132,5 @@ Feedstock Maintainers
 =====================
 
 * [@volpatto](https://github.com/volpatto/)
+* [@CalebBell](https://github.com/CalebBell)
 
