@@ -32,6 +32,13 @@ test:
   imports:
     - thermo
     - fluids
+  requires:
+    - pytest
+    - pytest-cov
+    - coveralls
+    - numpydoc
+  commands:
+    - py.test . -v --cov-report html --cov=thermo --cov-report term-missing -m "not meta_Chemical and not slow and not rdkit"
 
 about:
   home: https://github.com/CalebBell/thermo
