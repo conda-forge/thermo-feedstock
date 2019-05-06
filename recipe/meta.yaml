@@ -38,7 +38,7 @@ test:
     - coveralls
     - numpydoc
   commands:
-    - py.test . -v
+    - py.test --pyargs tests
 
 about:
   home: https://github.com/CalebBell/thermo
