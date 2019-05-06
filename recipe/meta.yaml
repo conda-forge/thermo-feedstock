@@ -38,7 +38,7 @@ test:
     - coveralls
     - numpydoc
   commands:
-    - py.test . -v --cov-report html --cov=thermo --cov-report term-missing -m "not meta_Chemical and not slow and not rdkit"
+    - py.test . -v
 
 about:
   home: https://github.com/CalebBell/thermo
