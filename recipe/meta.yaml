@@ -32,14 +32,6 @@ test:
   imports:
     - thermo
     - fluids
-  requires:
-    - pytest
-    - pytest-cov
-    - coveralls
-    - numpydoc
-  commands:
-    - cd tests
-    - py.test . -v
 
 about:
   home: https://github.com/CalebBell/thermo
