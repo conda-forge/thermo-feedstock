@@ -10,7 +10,7 @@ source:
   sha256: 37fd4b8e5709f525510bd729fdd5e4f2dcdfb13b4cee29eb0c41343afad8819b
 
 build:
-  number: 4
+  number: 5
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv "
 
@@ -19,16 +19,18 @@ requirements:
     - pip
     - python
   run:
+    - python
     - fluids >=0.1.68
     - pandas
-    - python
     - scipy
-    - pint
-    - sympy
     - coolprop
-    - matplotlib
+    - pint
 
 test:
+  requires:
+    - sympy
+    - matplotlib
+  
   imports:
     - thermo
     - fluids
