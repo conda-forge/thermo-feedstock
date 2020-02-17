@@ -10,7 +10,7 @@ source:
   sha256: 37fd4b8e5709f525510bd729fdd5e4f2dcdfb13b4cee29eb0c41343afad8819b
 
 build:
-  number: 5
+  number: 6
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv "
 
@@ -29,7 +29,7 @@ requirements:
 test:
   requires:
     - sympy
-    - matplotlib
+    - matplotlib-base
   
   imports:
     - thermo
