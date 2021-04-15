@@ -1,18 +1,18 @@
 {% set name = "thermo" %}
-{% set version = "0.1.40" %}
+{% set version = "0.2.3" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3e1e0f90ae4764e3b711e1d532acef667bcc24eb30fdad4cb3aae145b160e48a
+  sha256: 9cc9993d2467ef3e31b9def6b8e20c9d257ba87051a86c43e8f61fba3f813896
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
 
 requirements:
   host:
@@ -30,7 +30,7 @@ test:
   requires:
     - sympy
     - matplotlib-base
-  
+
   imports:
     - thermo
     - fluids
@@ -56,7 +56,7 @@ about:
     to use while still providing powerful functionality. If you need to know 
     something about a chemical, give thermo a try.
   doc_url: https://thermo.readthedocs.io/en/latest/
-  dev_url: https://github.com/CalebBell/thermo 
+  dev_url: https://github.com/CalebBell/thermo
 
 extra:
   recipe-maintainers:
