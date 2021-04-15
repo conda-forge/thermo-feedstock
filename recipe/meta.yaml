@@ -10,17 +10,17 @@ source:
   sha256: 9cc9993d2467ef3e31b9def6b8e20c9d257ba87051a86c43e8f61fba3f813896
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - python
-    - fluids >=1.0.2
+    - python >=3.6
+    - fluids >=1.0.3
     - scipy
     - coolprop
     - pint
@@ -56,7 +56,7 @@ about:
     quick to install, and is free of charge. thermo is designed to be easy 
     to use while still providing powerful functionality. If you need to know 
     something about a chemical, give thermo a try.
-  doc_url: https://thermo.readthedocs.io/en/latest/
+  doc_url: https://thermo.readthedocs.io/
   dev_url: https://github.com/CalebBell/thermo
 
 extra:
