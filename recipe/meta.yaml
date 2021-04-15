@@ -20,11 +20,11 @@ requirements:
     - python
   run:
     - python
-    - fluids >=0.1.68
-    - pandas
+    - fluids >=1.0.2
     - scipy
     - coolprop
     - pint
+    - chemicals
 
 test:
   requires:
@@ -33,6 +33,7 @@ test:
 
   imports:
     - thermo
+    - chemicals
     - fluids
 
 about:
