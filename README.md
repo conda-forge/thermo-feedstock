@@ -11,7 +11,7 @@ Summary: Chemical properties component of Chemical Engineering Design Library (C
 
 Development: https://github.com/CalebBell/thermo
 
-Documentation: https://thermo.readthedocs.io/en/latest/
+Documentation: https://thermo.readthedocs.io/
 
 thermo is an open-source software for engineers, scientists, technicians and
 anyone trying to understand the universe in more detail. It facilitates the
