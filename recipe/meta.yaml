@@ -1,5 +1,5 @@
 {% set name = "thermo" %}
-{% set version = "0.2.11" %}
+{% set version = "0.2.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7d5c1e5100c79f6c9f7332309fa5bf39148640beb4e4cc64a4732133ffeb7ea8
+  sha256: c802737948210700312b2e6402923e950d84aacd27a4aed1e69f6ce3c51c74cb
 
 build:
   number: 0
