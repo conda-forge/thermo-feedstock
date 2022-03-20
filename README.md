@@ -5,7 +5,7 @@ Home: https://github.com/CalebBell/thermo
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/thermo-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/thermo-feedstock/blob/main/LICENSE.txt)
 
 Summary: Chemical properties component of Chemical Engineering Design Library (ChEDL)
 
@@ -34,8 +34,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6641&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/thermo-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6641&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/thermo-feedstock?branchName=main">
       </a>
     </td>
   </tr>
