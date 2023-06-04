@@ -1,11 +1,11 @@
-About thermo
-============
+About thermo-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/thermo-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/CalebBell/thermo
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/thermo-feedstock/blob/main/LICENSE.txt)
 
 Summary: Chemical properties component of Chemical Engineering Design Library (ChEDL)
 
