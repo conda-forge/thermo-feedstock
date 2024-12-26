@@ -10,17 +10,17 @@ source:
   sha256: fdba77f0753eb52704000501d23b7f12a2860b7ff966b7c66acd0f7be9fa8859
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - fluids >=1.0.27
     - scipy
     - coolprop
@@ -31,6 +31,7 @@ test:
   requires:
     - sympy
     - matplotlib-base
+    - python {{ python_min }}
 
   imports:
     - thermo
